@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#headerBar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: lightgray;
+}
+
+.socialLinks,
+#navLinks {
+    margin: 20px 40px;
+  }
+
+.socialLinks a {
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.socialLinks a:visited{
+    color: unset;
+}
+
+#navLinks a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    letter-spacing: 2px;
+}
+
+.profilePhoto {
+    max-height: 500px;
+}
