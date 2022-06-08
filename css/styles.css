@@ -10,6 +10,7 @@ body {
     position: fixed;
     width: 100%;
     background: lightgray;
+    top: 0;
 }
 
 .socialLinks,
@@ -20,6 +21,7 @@ body {
 .socialLinks a {
     font-size: 26px;
     margin-left: 20px;
+    color: #000;
 }
 
 .socialLinks a:visited{
@@ -36,4 +38,17 @@ body {
 
 .profilePhoto {
     max-height: 500px;
+}
+
+.headerInnerContent {
+    margin: 80px auto 0;
+    display: flex;
+    max-width: 90%;
+    justify-content: space-between;
+  }
+
+.introduction {
+  display: flex;
+  align-items: center;
+  padding: 0 10% 0 0;
 }
